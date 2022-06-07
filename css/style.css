@@ -1,0 +1,199 @@
+/* Global Style */
+:root {
+  --main-color: #1ab7ea;
+  --text-color: #8f8c8c;
+  --head-color: #212529;
+}
+
+body {
+  font-family: "Cairo", sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+img,
+video {
+  width: 100%;
+  display: block;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 1;
+}
+
+.head-section {
+  margin-bottom: 100px;
+}
+
+.btn {
+  background: var(--main-color);
+  color: #fff;
+  padding: 7px 15px;
+  margin-bottom: 15px;
+  border: 1px solid var(--main-color);
+  transition: 0.3s;
+}
+
+.btn:hover {
+  color: var(--main-color);
+  background-color: transparent;
+}
+
+.head-section {
+  padding-top: 50px;
+}
+
+.product-show {
+  min-height: calc(100vh - 165px);
+  padding: 100px 0 0;
+}
+/* Global Style */
+
+/* Header Style */
+.header {
+  overflow: hidden;
+}
+
+.navbar {
+  background-color: #fff;
+  z-index: 99;
+}
+
+.navbar .navbar-brand {
+  font-size: 1.5rem;
+  color: var(--main-color);
+  outline: none;
+}
+
+.navbar-toggler {
+  outline: none !important;
+}
+
+.navbar-toggler-icon {
+  border: 1px solid var(--head-color);
+  border-radius: 5px;
+  padding: 0 3px;
+}
+
+.navbar-toggler-icon span {
+  display: block;
+  background-color: var(--head-color);
+  height: 1px;
+  margin: 6px 0;
+}
+
+.navbar .nav-link {
+  transition: 0.3s;
+}
+
+.navbar .nav-link:hover {
+  color: var(--main-color);
+}
+
+.header .carousel {
+  height: calc(100vh - 62px);
+}
+
+.header .carousel .carousel-inner {
+  height: 100%;
+  overflow: hidden;
+}
+
+.header .carousel-indicators li {
+  background-color: var(--main-color);
+  z-index: 9999;
+}
+
+.header .carousel .carousel-item {
+  height: 100%;
+}
+
+.header .carousel .carousel-item img {
+  height: 100%;
+}
+
+.header .carousel .carousel-control-prev,
+.header .carousel .carousel-control-next {
+  z-index: 2;
+  height: 100%;
+}
+
+.carousel-indicators {
+  bottom: 60px;
+}
+
+/* /Header Style */
+
+/* Start Style Section products */
+.products {
+  padding: 50px 0;
+}
+
+.product .image-holder {
+  background: url(../image/a52-1.jpg) no-repeat center center fixed;
+  background-size: 100% 100%;
+  height: 100vh;
+}
+
+.single-product {
+  margin-bottom: 30px !important;
+  box-shadow: 1px 3px 8px #ccc;
+  text-align: start;
+  width: 20rem;
+}
+
+.single-product .image {
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.single-product img {
+  max-height: 300px;
+  max-width: 100% !important;
+  width: auto;
+}
+
+.single-product .des {
+  padding: 0 15px;
+}
+
+.single-product .name {
+  color: var(--main-color);
+  margin: 0;
+  text-align: center;
+  font-size: 1.2rem;
+  height: 80px;
+}
+
+.single-product .detalis {
+  height: 145px;
+  overflow: hidden;
+}
+
+.single-product .detalis li {
+  margin: 10px 0;
+}
+
+/* End Style Section products */
+
+/* Footer  */
+.footer {
+  padding: 30px;
+  font-size: 1.3rem;
+}
+/* /Footer  */

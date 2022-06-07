@@ -1,0 +1,16 @@
+.product-show {
+    text-align: right;
+}
+
+.product-show .product {
+    padding-right: 50px;
+}
+
+.product-show .detalis {
+    padding: 30px 0;
+    margin: 0;
+}
+
+.product-show .detalis li {
+    margin: 15px 0 ;
+}
